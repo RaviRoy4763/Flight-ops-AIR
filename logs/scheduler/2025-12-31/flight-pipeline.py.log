@@ -10518,3 +10518,31 @@ ModuleNotFoundError: No module named 'scripts.gold_aggregate'
 [2025-12-31T21:50:44.855+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:50:44.855+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-12-31T21:50:44.860+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:50:44.860+0000] {dag.py:3947} INFO - Setting next_dagrun for flights_ops_medallion_pipe to 2025-12-31 21:30:00+00:00, run_after=2025-12-31 22:00:00+00:00
 [2025-12-31T21:50:44.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight-pipeline.py took 0.255 seconds
+[2025-12-31T21:51:15.130+0000] {processor.py:161} INFO - Started process (PID=6963) to work on /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:51:15.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight-pipeline.py for tasks to queue
+[2025-12-31T21:51:15.132+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:51:15.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:51:15.362+0000] {processor.py:840} INFO - DAG(s) 'flights_ops_medallion_pipe' retrieved from /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:51:15.370+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:51:15.370+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-31T21:51:15.376+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:51:15.376+0000] {dag.py:3947} INFO - Setting next_dagrun for flights_ops_medallion_pipe to 2025-12-31 21:30:00+00:00, run_after=2025-12-31 22:00:00+00:00
+[2025-12-31T21:51:15.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight-pipeline.py took 0.256 seconds
+[2025-12-31T21:51:45.405+0000] {processor.py:161} INFO - Started process (PID=6970) to work on /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:51:45.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight-pipeline.py for tasks to queue
+[2025-12-31T21:51:45.407+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:51:45.406+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:51:45.638+0000] {processor.py:840} INFO - DAG(s) 'flights_ops_medallion_pipe' retrieved from /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:51:45.646+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:51:45.646+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-31T21:51:45.652+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:51:45.652+0000] {dag.py:3947} INFO - Setting next_dagrun for flights_ops_medallion_pipe to 2025-12-31 21:30:00+00:00, run_after=2025-12-31 22:00:00+00:00
+[2025-12-31T21:51:45.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight-pipeline.py took 0.258 seconds
+[2025-12-31T21:52:15.864+0000] {processor.py:161} INFO - Started process (PID=6977) to work on /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:52:15.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight-pipeline.py for tasks to queue
+[2025-12-31T21:52:15.866+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:52:15.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:52:16.095+0000] {processor.py:840} INFO - DAG(s) 'flights_ops_medallion_pipe' retrieved from /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:52:16.103+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:52:16.103+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-31T21:52:16.109+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:52:16.109+0000] {dag.py:3947} INFO - Setting next_dagrun for flights_ops_medallion_pipe to 2025-12-31 21:30:00+00:00, run_after=2025-12-31 22:00:00+00:00
+[2025-12-31T21:52:16.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight-pipeline.py took 0.255 seconds
+[2025-12-31T21:52:46.376+0000] {processor.py:161} INFO - Started process (PID=6984) to work on /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:52:46.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight-pipeline.py for tasks to queue
+[2025-12-31T21:52:46.378+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:52:46.378+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:52:46.612+0000] {processor.py:840} INFO - DAG(s) 'flights_ops_medallion_pipe' retrieved from /opt/airflow/dags/flight-pipeline.py
+[2025-12-31T21:52:46.620+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:52:46.620+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-31T21:52:46.627+0000] {logging_mixin.py:188} INFO - [2025-12-31T21:52:46.627+0000] {dag.py:3947} INFO - Setting next_dagrun for flights_ops_medallion_pipe to 2025-12-31 21:30:00+00:00, run_after=2025-12-31 22:00:00+00:00
+[2025-12-31T21:52:46.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight-pipeline.py took 0.262 seconds
